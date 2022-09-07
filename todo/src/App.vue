@@ -1,7 +1,9 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HelloWorld msg="Welcome to Your Vue.js App" />
   <div>hello zzzzz</div>
+  <router-link>sweet-tracker</router-link>
+  <router-view :key="$route.path" />
 </template>
 
 <script>

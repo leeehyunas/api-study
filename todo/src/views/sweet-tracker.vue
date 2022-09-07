@@ -1,0 +1,3 @@
+<template>
+  sweet-tracker
+</template>
